@@ -29,3 +29,4 @@ contact = Contact.new(
   phone_number: "925-121-0913"
   )
 contact.save
+
