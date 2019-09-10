@@ -1,6 +1,16 @@
 {
   first_name: @contact.first_name,
+  middle_name: @contact.middle_name,
   last_name: @contact.last_name,
+  full_name: @contact.full_name,
   email: @contact.email,
-  phone_number: @contact.phone_number
+  phone_number: @contact.phone_number,
+  address: @contact.address,
+  latitude: @contact.latitude,
+  longitude: @contact.longitude,
+  bio: @contact.bio,
+  formatted: {
+    friendly_updated_at: @contact.friendly_updated_at,
+    japan_phone_number: @contact.japan_phone_number
+  }
 }
