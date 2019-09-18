@@ -1,0 +1,13 @@
+<h2><%= @contact.first_name %></h2>
+<h2><%= @contact.last_name %></h2>
+
+<p><b>Email:</b><%=@contact.email%></p>
+<p><b>Phone Number:</b><%=@contact.phone_number%></p>
+<p><b>Middle Name:</b><%=@contact.middle_name%></p>
+<p><b>Bio:</b><%=@contact.bio%></p>
+<p><b>User ID:</b><%=@contact.user_id%></p>
+
+<a href="/contacts/<%= @contact.id %>/edit">Edit</a>
+
+<a href="/contacts">All Contacts</a>
+
